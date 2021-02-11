@@ -1,0 +1,5 @@
+label {width:7em; display:inline-block; padding:0.6%;}
+.labels{display: inline; color:red;}
+input#Ant {width:2em}
+#antallDiv{padding: 0.6% 0 0.6% 0}
+body{margin-left:8%; margin-top:5%; margin-bottom:5%; margin-right: 5%;width:32em; height: 35em; border: 3px solid midnightblue}

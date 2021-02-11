@@ -1,0 +1,56 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Kino billetter</title>
+        <script type="application/javascript" src="javaS.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1>Bestilling av kinobilletter</h1>
+    <div>
+        <label for="VFilm">Velg film: </label>
+        <select id="VFilm">
+        <option> </option>
+            <option>Super's quest for discovery</option>
+            <option>Don't trust the fairy at mcDonalds</option>
+            <option>Masquerades and other deceptions</option>
+            <option>Nature's child</option>
+            <option>The man in the elevator</option>
+        </select>
+    </div>
+
+    <div id="antallDiv">
+        <label for="Ant">Antall: </label>
+        <input type="text" id="Ant">
+        <div class="labels" id="AntError"></div>
+    </div>
+
+    <div>
+        <label for="FN">Fornavn: </label>
+        <input type="text" id="FN">
+        <div class="labels" id="FNError"></div>
+    </div>
+    <div>
+        <label for="EN">Etternavn: </label>
+        <input type="text" id="EN">
+        <div class="labels" id="ENError"></div>
+    </div>
+    <div>
+        <label for="Tlf">Telefon nummer: </label>
+        <input type="text" id="Tlf">
+        <div class="labels" id="TlfError"></div>
+    </div>
+    <div>
+        <label for="EP">Epost: </label>
+        <input type="text" id="EP">
+        <div class="labels" id="EPError"></div>
+    </div>
+
+        <button onclick="GetB()">Kjøp billett</button>
+    <h2>Alle billetter</h2>
+    <div id="AllB"></div>
+
+    <button onclick="DelAll()">Slett alle billetter</button>
+    </body>
+    </html>
